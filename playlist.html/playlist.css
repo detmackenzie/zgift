@@ -1,0 +1,238 @@
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff69b4;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image-playlist {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/bgplaylist.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+
+
+#playlist {
+    margin-bottom: 20px;
+}
+
+.playlist-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.playwrite-nl-p-enjoy {
+    font-family: "Playwrite NL", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .bodoni-moda-sc-playlist {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }  
+
+.like-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.back-link {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.back-link .tooltip {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Posição acima do botão */
+    left: 50%;
+    margin-left: -30px; /* Centralizar o tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.back-link .tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%; /* Topo do tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.back-link:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff69b4;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+
+
+#playlist {
+    margin-bottom: 20px;
+}
+
+.playlist-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000; /* Certifique-se de que o botão de fechar esteja no topo */
+}
+
+.back-link .material-icons {
+    font-size: 36px;
+}
+
+.back-link .tooltip {
+    display: none;
+    position: absolute;
+    top: -34px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.back-link:hover .tooltip {
+    display: block;
+}
+
+.like-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease; /* Adiciona transição suave */
+}
+
+.like-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease; /* Adiciona transição suave */
+}
+
+.like-button.liked {
+    color: #ffa3c2;
+    transform: scale(1.2); /* Aumenta o tamanho do ícone quando é curtido */
+}
+
+
+
+
+
+
+
+
+
+
+
